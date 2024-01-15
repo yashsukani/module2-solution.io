@@ -78,9 +78,12 @@ h3{
 @media (max-width: 767px) {
     .dish {
         width: 100%;
-        display:flex;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .card {
+        width: 80%;
     }
 }
